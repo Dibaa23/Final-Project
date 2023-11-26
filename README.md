@@ -27,7 +27,3 @@ This project visualizes the integration of human identity with technology throug
    - Style: Post-Internet/Post-Humanism
    - Medium: Mixed media
    - Filter: Sepia/Invert
-
-## License
-This project is licensed under [MIT Liscence]. 
-
