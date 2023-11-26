@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Embedded Google Doc</title>
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Enables flexbox layout */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            background: black; /* Set background color to black */
+            overflow: hidden; /* Hide scrollbars */
+        }
+        iframe {
+            width: 50%; /* Adjust the width as needed */
+            height: 100%; /* Adjust the height as needed */
+            border: none; /* Remove the border around the iframe */
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vT8qGC3l4DYvgptHRDKMawGLGr74UcSLYtskVWiCFEetQCodYo070-1Rh6prcmKtFyCiPoDZ92X7FZL/pub?embedded=true"></iframe>
+</body>
+</html>
